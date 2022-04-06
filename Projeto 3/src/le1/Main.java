@@ -1,13 +1,9 @@
 package le1;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 import le1.plp.expressions1.Programa;
 import le1.plp.expressions1.expression.ExpDiv;
 import le1.plp.expressions1.expression.ExpMult;
 import le1.plp.expressions1.expression.ValorInteiro;
-import le1.plp.expressions1.parser.Exp1Parser;
 
 public class Main {
 
@@ -30,7 +26,7 @@ public class Main {
 		ExpDiv expdiv = new ExpDiv(valor1, valor2);
 		Programa programa2 = new Programa(expdiv);
 		programa2.executar();
-		
+				
 	}
 
 }

@@ -2,7 +2,6 @@
 package le1.plp.expressions1.parser;
 import le1.plp.expressions1.*;
 import le1.plp.expressions1.expression.*;
-import le1.plp.expressions1.util.*;
 
 public class Exp1Parser implements Exp1ParserConstants {
   public static void main(String args [])
