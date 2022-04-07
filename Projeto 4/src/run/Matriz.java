@@ -22,9 +22,22 @@ public class Matriz {
 	
 	public void preencher()
 	{
-		for (int i = 0; i <=1; i++) {
-			for (int j = 0; j <= 1; j++) {
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[0].length; j++) {
 				matriz[i][j] = r.nextInt(10);
+			}
+		}
+	}
+	
+	public void preenchercomverificacao()
+	{
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[0].length; j++) {
+				try {
+					matriz[i][j] = r.nextInt(10);
+				} catch (ArrayIndexOutOfBoundsException e) {
+					System.out.println("Fora do index");
+				}
 			}
 		}
 	}
@@ -32,8 +45,8 @@ public class Matriz {
 	
 	public void printar()
 	{
-		for (int i = 0; i <=1; i++) {
-			for (int j = 0; j <= 1; j++) {
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[0].length; j++) {
 				System.out.print(matriz[i][j]+" ");
 			}
 			System.out.println();
