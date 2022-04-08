@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Classe com sem Verificação de Indice:");
+		System.out.println("Classe sem Verificação de Indice:");
 		System.out.println();
 		Sem_vericacao_de_indice.main(args);
 
