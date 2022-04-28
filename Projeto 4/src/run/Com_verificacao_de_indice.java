@@ -3,7 +3,6 @@ package run;
 import java.util.ArrayList;
 import java.util.Random;
 
-import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
 
 public class Com_verificacao_de_indice {
 
