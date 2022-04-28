@@ -8,7 +8,9 @@ import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
 public class Com_verificacao_de_indice {
 
 	public static void main(String[] args) {
+		
 		long tempoInicial = System.currentTimeMillis();
+		
 		Random r = new Random();
 		int cont = 0;
 		

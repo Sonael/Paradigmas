@@ -6,7 +6,9 @@ import java.util.Random;
 public class Sem_vericacao_de_indice {
 
 	public static void main(String[] args) {
+		
 		long tempoInicial = System.currentTimeMillis();
+		
 		Random r = new Random();
 		int cont = 0;
 		
