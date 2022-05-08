@@ -42,14 +42,17 @@ async def escrever(file):
 
 
 
-#A função main() também é assíncrona,ela cria as intâncias da função escrever() e usa a palavra chave await para esperar que as duas intâncias terminem de executar
+#A função main() também é assíncrona,ela cria as intâncias da função escrever() e usa a palavra chave await junto com 
+#a função gather para iniciar as intâncias simultaneamente e esperar elas terminarem.
 async def main():
 
     task1 = asyncio.create_task(escrever(file1))
     task2 = asyncio.create_task(escrever(file2))
 
-    await task1
-    await task2
+    await asyncio.gather(
+        task1,
+        task2
+    )
 
 
 #Executa a função main()
