@@ -9,6 +9,7 @@ https://www.cin.ufpe.br/~in1007/linguagens/Expressoes1/expressao1.html
 
 https://www.cin.ufpe.br/~in1007/linguagens/
 
+---
 
 ## Projeto 4
 
@@ -21,3 +22,11 @@ b) O aluno deve registrar o tempo de execução(usando ou não uma biblioteca ex
 
 c) O aluno deve mostrar o tempo gasto utilizando nos dois cenários(com e sem verificação de faixa de índice).
 OBS:Sabemos que Java faz essa verificação de faixa de índice automaticamente, para simular o mesmo cenário o aluno pode ignorar essa verificação feita pela linguagem e fazer um método que faça essa verificação.
+
+---
+
+## Projeto 6
+
+Vamos supor que temos uma função que produz continuamente valores (por exemplo, lendo-os de um arquivo) e outra função que consuma continuamente esses valores (por exemplo, gravá-los em outro arquivo). Podemos então desenvolver uma solução para este problema usando as co-rotinas.
+
+O aluno deverá escolher uma linguagem de programação e mostrar um exemplo de utilização de Co-rotinas. OBS.: O uso da co-rotina deve ser justificado pelo aluno.
